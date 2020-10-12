@@ -11,7 +11,6 @@ function saveName(text) {
 
 function handleSubmit(event) {
   event.preventDefault();
-  input.placeholder = "gg";
   const currentValue = input.value;
   paintGreeting(currentValue);
   saveName(currentValue);

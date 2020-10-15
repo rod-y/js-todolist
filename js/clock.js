@@ -1,6 +1,6 @@
 
 const count = 14;
-console.log(`value: ${count}, type: ${typeof count}`);
+// console.log(`value: ${count}, type: ${typeof count}`);
 
 const clockContainer = document.querySelector(".js-clock");
 const clockTitle = clockContainer.querySelector("h1");
